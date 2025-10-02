@@ -3,7 +3,9 @@ public class WaterBottle2 {
         int eb = bottles;
         int db = bottles;
         while (eb >= numsEx) {
-            db--;
+            eb -= numsEx;
+            numsEx++;
+            db++;
             eb++;
         }
         return db;
