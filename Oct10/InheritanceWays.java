@@ -5,7 +5,7 @@ class Vehicle {
 
     public Vehicle(String color) {
         this.color = color;
-        System.out.println("The car is of " + color + " color");
+        System.out.println("The Vehicle is created with " + color + " color");
     }
 
     public void start() {
@@ -19,7 +19,7 @@ class Car extends Vehicle {
     public Car(String color, int gears) {
         super(color); // call to base-class constructor
         this.gears = gears;
-        System.out.println("The car is running on " + gears);
+        System.out.println("The Car has " + gears);
     }
 
     @Override
